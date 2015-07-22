@@ -4,10 +4,10 @@
     <title>Kaitlyn Joy Mann - Web Development, Design &amp; Motion</title>
     <description>I’m Kaitlyn Mann, a front-end web developer who loves to design and create  motion graphics. Check out some of my recent projects, or read my blog.
 </description>
-    <link>http://test.kaitlynjoy.com/portfolio-test/</link>
-    <atom:link href="http://test.kaitlynjoy.com/portfolio-test/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Jul 2015 20:10:49 -0400</pubDate>
-    <lastBuildDate>Tue, 21 Jul 2015 20:10:49 -0400</lastBuildDate>
+    <link>http://test.kaitlynjoy.com/</link>
+    <atom:link href="http://test.kaitlynjoy.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Jul 2015 16:57:20 -0400</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 16:57:20 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -51,8 +51,8 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;p&gt;There, you’re done! That’s wasn’t so bad. If you want more on using PHP in CSS, your can learn more with &lt;a href=&quot;https://css-tricks.com/css-variables-with-php/&quot;&gt;this article&lt;/a&gt; from CSS Tricks.&lt;/p&gt;
 </description>
         <pubDate>Tue, 21 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/using-php-variables-in-css</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/using-php-variables-in-css</guid>
+        <link>http://test.kaitlynjoy.com/using-php-variables-in-css</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/using-php-variables-in-css</guid>
         
         
       </item>
@@ -92,8 +92,8 @@ $primaryFont = &quot;Raleway&quot;;
 
 </description>
         <pubDate>Thu, 09 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/hosting-name-servers-caching-etc</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/hosting-name-servers-caching-etc</guid>
+        <link>http://test.kaitlynjoy.com/hosting-name-servers-caching-etc</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/hosting-name-servers-caching-etc</guid>
         
         
       </item>
@@ -116,7 +116,7 @@ $primaryFont = &quot;Raleway&quot;;
 
 &lt;h4 id=&quot;big-drop&quot;&gt;1. Big Drop&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio-test/img/blog-img/big-drop-homepage.jpg&quot; alt=&quot;Big Drop Homepage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/big-drop-homepage.jpg&quot; alt=&quot;Big Drop Homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bigdropinc.com/&quot;&gt;Check out the site&lt;/a&gt;&lt;/li&gt;
@@ -124,7 +124,7 @@ $primaryFont = &quot;Raleway&quot;;
 
 &lt;h4 id=&quot;lounge-lizard&quot;&gt;2. Lounge Lizard&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio-test/img/blog-img/lounge-lizard-homepage.jpg&quot; alt=&quot;Lounge Lizard Homepage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/lounge-lizard-homepage.jpg&quot; alt=&quot;Lounge Lizard Homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.loungelizard.com/&quot;&gt;Check out the site&lt;/a&gt;&lt;/li&gt;
@@ -140,8 +140,8 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 08 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/web-design-inpiration-from-line-25</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/web-design-inpiration-from-line-25</guid>
+        <link>http://test.kaitlynjoy.com/web-design-inpiration-from-line-25</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/web-design-inpiration-from-line-25</guid>
         
         
       </item>
@@ -158,7 +158,7 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;h3 id=&quot;the-inspiration&quot;&gt;The Inspiration&lt;/h3&gt;
 &lt;p&gt;I was particularly inspired by a &lt;a href=&quot;&quot;&gt;demo showcased on codrops&lt;/a&gt;, a web design and development blog. Take a look, hovering over each button. Many of the buttons (especially in the green and purple sections) have both beauty and usefulness.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio-test/img/blog-img/creative-button-styles.png&quot; alt=&quot;Creative Button Styles&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/creative-button-styles.png&quot; alt=&quot;Creative Button Styles&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But wait…what about mobile? And old browsers? Hover effects just don’t work (yet) on mobile devices. While playing around with these buttons, I still have to remember to make the initial view/state of the button all the user needs to know, while the hover states provide extra, helpful, but non-essential information. But it sure would be cool if phones had hover-sensors. Think of how touches hand motions could transform the mobile web experience…&lt;/p&gt;
 
@@ -173,8 +173,8 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 06 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/beautiful-and-useful-button-animations</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/beautiful-and-useful-button-animations</guid>
+        <link>http://test.kaitlynjoy.com/beautiful-and-useful-button-animations</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/beautiful-and-useful-button-animations</guid>
         
         
       </item>
@@ -186,7 +186,7 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;h3 id=&quot;so-what-is-inbound-marketing&quot;&gt;So what is inbound marketing?&lt;/h3&gt;
 &lt;p&gt;If you, like me, have never heard of inbound marketing before, here’s a quick explanation. Instead of pushing a brand in front of potential customers, using ads, and buying email lists, Inbound marketing draws potential customers to you. How do you do this?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio-test/img/blog-img/inbound-marketing-101.png&quot; alt=&quot;Hubspot&#39;s Inbound Marketing Diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/inbound-marketing-101.png&quot; alt=&quot;Hubspot&#39;s Inbound Marketing Diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, through creating and distributing awesome, informational content that your customers want and are searching for. By using this method, you’re drawing the right people to your website, and offering them great content, giving you credibility, and avoiding become just another ad or piece of spam. This content can come in a variety of forms.
 * Blog posts
@@ -214,14 +214,14 @@ $primaryFont = &quot;Raleway&quot;;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;want-more&quot;&gt;Want more?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/portfolio-test/img/blog-img/inbound-certification.png&quot; alt=&quot;Hubspot&#39;s Inbound Marketing Certifiction&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/inbound-certification.png&quot; alt=&quot;Hubspot&#39;s Inbound Marketing Certifiction&quot; /&gt;
 Want to learn more about Inbound Marketing? Hubspot Academy offers a &lt;a href=&quot;http://academy.hubspot.com/inbound-certification&quot;&gt;free inbound certification program&lt;/a&gt;. The program consists of 12 video classes, covering many of the topics I listed above. The videos are informational, and entertaining to watch as well. To get certified, watch the videos, and then take the online test.&lt;/p&gt;
 
 &lt;p&gt;Plus, you get a fun badge you can add to your LinkedIn profile, website, or share on social media. Bragging rights included. Enjoy!&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/inbound-marketing-101</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/inbound-marketing-101</guid>
+        <link>http://test.kaitlynjoy.com/inbound-marketing-101</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/inbound-marketing-101</guid>
         
         
       </item>
@@ -248,8 +248,8 @@ Want to learn more about Inbound Marketing? Hubspot Academy offers a &lt;a href=
 &lt;p&gt;So why should you go to all this trouble? My site’s doing just fine, you say. Believe me, take the extra couple minutes now, and protect yourself from hours of work cleaning out a hacked site later.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://test.kaitlynjoy.com/portfolio-test/keep-your-wordpress-site-safe</link>
-        <guid isPermaLink="true">http://test.kaitlynjoy.com/portfolio-test/keep-your-wordpress-site-safe</guid>
+        <link>http://test.kaitlynjoy.com/keep-your-wordpress-site-safe</link>
+        <guid isPermaLink="true">http://test.kaitlynjoy.com/keep-your-wordpress-site-safe</guid>
         
         
       </item>
