@@ -1,0 +1,40 @@
+# Site settings
+title: Kaitlyn Joy Mann - Web Development, Design & Motion
+email: hello@kaitlynjoy.com
+description: > # this means to ignore newlines until "baseurl:"
+  I’m Kaitlyn Mann, a front-end web developer who loves to design and create 
+  motion graphics. Check out some of my recent projects, or read my blog.
+url: "http://test.kaitlynjoy.com" # the base hostname & protocol for your site
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+
+#Default Settings
+defaults:
+ -
+  scope:
+      path: "" #empty string means all files in the project
+      type: "posts"
+  values:
+      layout: "post"
+      comments: true
+
+ -
+  scope:
+      path: "" #empty string means all files in the project
+      type: "drafts"
+  values:
+      layout: "post"
+
+ -
+  scope:
+      path: "" #empty string means all files in the project
+      type: "pages"
+  values:
+      layout: "default"

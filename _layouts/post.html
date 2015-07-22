@@ -1,0 +1,59 @@
+---
+layout: default
+bodytags: interior-page blog blog-post
+logo: light
+---
+
+<header class="small-header">
+
+	<div id="header-content" class="fadeContent"> 
+		
+		<h1><a href="{{ site.baseurl }}/blog/">Blog</a></h1>
+		<h4 class="hide-mobile">Kaitlyn Joy Mann | Web Development, Design &amp; Motion</h4>
+
+	</div>
+
+</header>
+
+
+<section id="main-content" class="content">
+
+<h2 class="post-title">{{ page.title }}</h2>
+<p class="post-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+
+{% if page.feat-img %}
+
+<img id="feat-img" src="{{ site.baseurl }}/img/blog-img/{{ page.feat-img }}" alt="Featured Image" title="">
+
+{% endif %}
+
+<article>
+  {{ content }}
+</article>
+
+{% if page.previous %}
+<p class="previous"><a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">&lt;&lt; {{ page.previous.title}}</a></p>
+{% endif %}
+
+{% if page.next %}
+<p class="next"><a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">{{ page.next.title }} &gt;&gt;</a></p>
+{% endif %}
+
+{% if page.previous %}<a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" class="previous-btn">&lt;</a>{% endif %}
+
+{% if page.next %}<a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" class="next-btn">&gt;</a>{% endif %}
+
+
+	<div class="clear"></div>
+
+<h3>What do you think?</h3>
+
+{% include social-sharing.html %}
+
+{% include disqus.html disqus_identifier=page.disqus_identifier %}
+
+
+	<div class="clear"></div>
+		
+
+</section><!-- end main content section -->

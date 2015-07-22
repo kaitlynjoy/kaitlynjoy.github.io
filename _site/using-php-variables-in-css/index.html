@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1 maximum-scale=1">
+	<meta name="description" content="">
+	<title>Using PHP Variables in CSS | Kaitlyn Joy Mann - Web Development, Design &amp; Motion</title>
+
+	<link href="/portfolio-test/css/reset.css" rel="stylesheet">
+	<link href="/portfolio-test/css/phone-default.css" rel="stylesheet">
+	<link href="/portfolio-test/css/tablet.css" rel="stylesheet">
+	<link href="/portfolio-test/css/desktop.css" rel="stylesheet">
+
+	<link href="/portfolio-test/img/icon.ico" rel="shortcut icon">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+	<link rel="canonical" href="http://test.kaitlynjoy.com/portfolio-test/using-php-variables-in-css">
+
+	<link rel="alternate" type="application/rss+xml" title="Kaitlyn Joy Mann - Web Development, Design & Motion" href="http://test.kaitlynjoy.com/portfolio-test/feed.xml" />
+
+	
+
+
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<!-- ShareThis Script -->
+
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "e2b6b2cd-9b0d-45e3-a6ed-6322884f17d9", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
+
+</head>
+
+
+
+<body class="interior-page blog blog-post">
+
+	<a href="/portfolio-test/"><img src="/portfolio-test/img/logo-light.png" id="logo" alt="logo" title=""></a>
+
+<nav>
+	<ul>
+		<li><a href="/portfolio-test/#web-projects">Web</a></li>
+		<li><a href="https://www.behance.net/kaitlynjoy" target="_blank">Graphics</a></li>
+		<li><a href="http://vimeo.com/kaitlynmann/" target="_blank">Motion</a></li>
+	</ul>
+	<p><a href="/portfolio-test/index.html">Home</a> &nbsp; &bull; &nbsp; <a href="/portfolio-test/blog/">Blog</a></p>
+
+</nav>
+
+<button id="menu-toggle"><span>Menu</span></button>
+
+  		<header class="small-header">
+
+	<div id="header-content" class="fadeContent"> 
+		
+		<h1><a href="/portfolio-test/blog/">Blog</a></h1>
+		<h4 class="hide-mobile">Kaitlyn Joy Mann | Web Development, Design &amp; Motion</h4>
+
+	</div>
+
+</header>
+
+
+<section id="main-content" class="content">
+
+<h2 class="post-title">Using PHP Variables in CSS</h2>
+<p class="post-date">Jul 21, 2015</p>
+
+
+
+<img id="feat-img" src="/portfolio-test/img/blog-img/css-and-php.jpg" alt="Featured Image" title="">
+
+
+
+<article>
+  <p>Wouldn’t it be nice to be able to write CSS, but use variables for commonly used elements like colors and fonts? The good news is, there is! And, it’s pretty simple too. All you need to know is a little bit of PHP, and you’re on your way to more efficient, easier to write CSS. Plus, if you need to change that color or font, you’ll only have to change it in one place instead of who knows how many…Plus, remembering <em>lightGold</em> is much easier than remembering something like <em>#fceb8d</em>.</p>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p>1. Change your .css file to .php <br /> <em>(Note: Make sure you change the filename in the call to your stylesheet in your HTML as well)</em></p>
+
+<p>2. Open a php block at the top of your php stylesheet</p>
+
+<pre><code>&lt;?php ...Your PHP code goes here... ?&gt;
+</code></pre>
+
+<p>3. Inside the PHP block, tell the file that it’s actually a CSS document with this line of code:</p>
+
+<pre><code>header("Content-type: text/css; charset: UTF-8");
+</code></pre>
+
+<p>4. Write your PHP variables, using the following syntax:</p>
+
+<pre><code>$primaryColor = "#666666";
+$primaryFont = "Raleway";
+</code></pre>
+
+<h3 id="using-the-variables">Using the Variables</h3>
+
+<p>Using the variables you created is easy. Inside any CSS rule, where you would usually write out the color, font, or other value, replace that with the following code structure:</p>
+
+<pre><code>&lt;?php echo $primaryColor; ?&gt;
+</code></pre>
+
+<p>See a full example of this below:</p>
+
+<pre><code>a {
+	color: &lt;?php echo $primaryColor; ?&gt;;
+}
+</code></pre>
+
+<p>There, you’re done! That’s wasn’t so bad. If you want more on using PHP in CSS, your can learn more with <a href="https://css-tricks.com/css-variables-with-php/">this article</a> from CSS Tricks.</p>
+
+</article>
+
+
+<p class="previous"><a href="/portfolio-test/hosting-name-servers-caching-etc">&lt;&lt; Hosting, DNS, and Caching Issues</a></p>
+
+
+
+
+<a href="/portfolio-test/hosting-name-servers-caching-etc" class="previous-btn">&lt;</a>
+
+
+
+
+	<div class="clear"></div>
+
+<h3>What do you think?</h3>
+
+<div class="social-sharing">
+  		<span class='st_facebook_large' displayText='Facebook'></span>
+		<span class='st_twitter_large' displayText='Tweet'></span>
+		<span class='st_linkedin_large' displayText='LinkedIn'></span>
+		<span class='st_pinterest_large' displayText='Pinterest'></span>
+		<span class='st_email_large' displayText='Email'></span>
+</div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'kaitlynjoy';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+	<div class="clear"></div>
+		
+
+</section><!-- end main content section -->
+
+
+
+  	<footer>
+
+<div class="content">
+  <h2>Say Hello &amp; Connect</h2>
+
+  <a href="mailto:hello@kaitlynjoy.com" class="btn-contact">
+    <img src="/portfolio-test/img/contact-email.png" alt="Email" title="">
+    <p>Email</p>
+  </a>
+
+  <a href="https://www.linkedin.com/in/kaitlynmann" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-linkedin.png" alt="LinkedIn" title="">
+    <p>LinkedIn</p>
+  </a>
+
+  <a href="http://vimeo.com/kaitlynmann/" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-vimeo.png" alt="CodePen" title="">
+    <p>Vimeo</p>
+  </a>
+
+  <a href="https://www.behance.net/kaitlynjoy" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-behance.png" alt="Behance" title="">
+    <p>Behance</p>
+  </a>
+
+  <a href="http://codepen.io/kaitlynjoy/" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-codepen.png" alt="CodePen" title="">
+    <p>CodePen</p>
+  </a>
+
+  <a href="https://github.com/kaitlynjoy" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-github.png" alt="Behance" title="">
+    <p>Github</p>
+  </a>
+</div>
+
+
+
+  <div class="clear"></div>
+
+  <hr>
+
+  <div class="clear"></div>
+
+    <p>&copy; Kaitlyn Joy Mann</p>
+
+    <a href="https://github.com/kaitlynjoy/portfolio-site" target="_blank" class="btn-box">Source Code</a>
+    <a href="/portfolio-test/blog/" class="btn-box">Blog</a>
+
+<div class="clear"></div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/portfolio-test/js/base.js"></script>
+
+
+</body>
+
+</html>

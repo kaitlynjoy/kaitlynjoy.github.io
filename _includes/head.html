@@ -1,0 +1,38 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1 maximum-scale=1">
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<title>{% if page.title %}{{ page.title }} | {% endif %}Kaitlyn Joy Mann - Web Development, Design &amp; Motion</title>
+
+	<link href="{{ site.baseurl }}/css/reset.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/css/phone-default.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/css/tablet.css" rel="stylesheet">
+	<link href="{{ site.baseurl }}/css/desktop.css" rel="stylesheet">
+
+	<link href="{{ site.baseurl }}/img/icon.ico" rel="shortcut icon">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+	{% if page.og-img %}
+	<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.og-img }}" />
+	{% endif %}
+
+
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<!-- ShareThis Script -->
+
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "e2b6b2cd-9b0d-45e3-a6ed-6322884f17d9", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
+
+</head>

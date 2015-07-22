@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1 maximum-scale=1">
+	<meta name="description" content="Switching hosting companies can be tough, especially if you want to transfer peices at a time. Specifically, I worked through transferring a WordPress instal...">
+	<title>Hosting, DNS, and Caching Issues | Kaitlyn Joy Mann - Web Development, Design &amp; Motion</title>
+
+	<link href="/portfolio-test/css/reset.css" rel="stylesheet">
+	<link href="/portfolio-test/css/phone-default.css" rel="stylesheet">
+	<link href="/portfolio-test/css/tablet.css" rel="stylesheet">
+	<link href="/portfolio-test/css/desktop.css" rel="stylesheet">
+
+	<link href="/portfolio-test/img/icon.ico" rel="shortcut icon">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+	<link rel="canonical" href="http://test.kaitlynjoy.com/portfolio-test/hosting-name-servers-caching-etc">
+
+	<link rel="alternate" type="application/rss+xml" title="Kaitlyn Joy Mann - Web Development, Design & Motion" href="http://test.kaitlynjoy.com/portfolio-test/feed.xml" />
+
+	
+
+
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<!-- ShareThis Script -->
+
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "e2b6b2cd-9b0d-45e3-a6ed-6322884f17d9", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+	<!--[if lte IE 8]><script src="js/respond.js"></script><![endif]-->
+
+</head>
+
+
+
+<body class="interior-page blog blog-post">
+
+	<a href="/portfolio-test/"><img src="/portfolio-test/img/logo-light.png" id="logo" alt="logo" title=""></a>
+
+<nav>
+	<ul>
+		<li><a href="/portfolio-test/#web-projects">Web</a></li>
+		<li><a href="https://www.behance.net/kaitlynjoy" target="_blank">Graphics</a></li>
+		<li><a href="http://vimeo.com/kaitlynmann/" target="_blank">Motion</a></li>
+	</ul>
+	<p><a href="/portfolio-test/index.html">Home</a> &nbsp; &bull; &nbsp; <a href="/portfolio-test/blog/">Blog</a></p>
+
+</nav>
+
+<button id="menu-toggle"><span>Menu</span></button>
+
+  		<header class="small-header">
+
+	<div id="header-content" class="fadeContent"> 
+		
+		<h1><a href="/portfolio-test/blog/">Blog</a></h1>
+		<h4 class="hide-mobile">Kaitlyn Joy Mann | Web Development, Design &amp; Motion</h4>
+
+	</div>
+
+</header>
+
+
+<section id="main-content" class="content">
+
+<h2 class="post-title">Hosting, DNS, and Caching Issues</h2>
+<p class="post-date">Jul 9, 2015</p>
+
+
+
+<img id="feat-img" src="/portfolio-test/img/blog-img/hosting-name-servers.jpg" alt="Featured Image" title="">
+
+
+
+<article>
+  <p>Switching hosting companies can be tough, especially if you want to transfer peices at a time. Specifically, I worked through transferring a WordPress install to the new hosting company, without the domain name being transferred yet. Here are some helpful tips I’ve collected as I’ve learned about hosting, DNS, caching, and more.</p>
+
+<h3 id="what-is-dns">What is DNS?</h3>
+
+<p>DNS means domain name system. Basically, they connect web pages with their domain names. Without DNS, people would have to type in a website’s IP address to access the site. Domains make things a lot simpler. Aren’t you glad you don’t have to remember a long string of numbers just to get to Google or Facebook? Well, I am.</p>
+
+<p>You can easily find any website’s IP address with a command prompt. For example, in Terminal use this simple command:</p>
+
+<pre><code>nslookup
+</code></pre>
+
+<p>Follow this command with a space, and the website’s url. <a href="http://www.bohemianalps.com/blog/2007/nslookup/">(Thanks to the Bohemian Blog for this info)</a></p>
+
+<h3 id="the-challenge">The Challenge</h3>
+
+<p>So the challenge is to install wordpress on a new host, with the domain still pointing to the old website. First, you’ll back-up your WordPress installation on the  OLD server and then move it to the new server. See <a href="https://codex.wordpress.org/Moving_WordPress">this article from the Wordpress Codex</a> for more information on how to do this.</p>
+
+<h4 id="issue-1-your-wordpress-install-returns-a-server-not-found-error"><strong>Issue #1:</strong> Your WordPress Install returns a Server Not Found error.</h4>
+
+<p>This is because the domain name is still pointing to your old site, and wordpress gets confused on what you’re trying to access. To fix this to work on your computer, you’ll have to edit the hosts file on your computer. Here’s <a href="http://www.tekrevue.com/tip/edit-hosts-file-mac-os-x/">a link</a> on how to do this on a Mac.</p>
+
+<h4 id="issue-2-its-still-not-working"><strong>Issue #2:</strong> It’s still not working…</h4>
+
+<p>Know that your computer keeps a DNS cache for websites you’ve visited, so the edits you just made to the hosts file are actually doing nothing, until you clear your local DNS cache. Here’s a link from Apple on <a href="https://support.apple.com/en-us/HT202516">how to clear your DNS cache</a>.</p>
+
+<h4 id="issue-3-its-still-not-working"><strong>Issue #3:</strong> It’s STILL not working…</h4>
+
+<p>If you’ve completed these steps and there still seems to be issues, there is a larger problem, most likely with your hosting DNS configuration. Contact your hosting company, and see if migrating WordPress on your website without transferring the domain name will be possible.</p>
+
+<p><strong>Good Luck!</strong></p>
+
+
+</article>
+
+
+<p class="previous"><a href="/portfolio-test/web-design-inpiration-from-line-25">&lt;&lt; Web Design Inspiration from Line25</a></p>
+
+
+
+<p class="next"><a href="/portfolio-test/using-php-variables-in-css">Using PHP Variables in CSS &gt;&gt;</a></p>
+
+
+<a href="/portfolio-test/web-design-inpiration-from-line-25" class="previous-btn">&lt;</a>
+
+<a href="/portfolio-test/using-php-variables-in-css" class="next-btn">&gt;</a>
+
+
+	<div class="clear"></div>
+
+<h3>What do you think?</h3>
+
+<div class="social-sharing">
+  		<span class='st_facebook_large' displayText='Facebook'></span>
+		<span class='st_twitter_large' displayText='Tweet'></span>
+		<span class='st_linkedin_large' displayText='LinkedIn'></span>
+		<span class='st_pinterest_large' displayText='Pinterest'></span>
+		<span class='st_email_large' displayText='Email'></span>
+</div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'kaitlynjoy';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+	<div class="clear"></div>
+		
+
+</section><!-- end main content section -->
+
+
+
+  	<footer>
+
+<div class="content">
+  <h2>Say Hello &amp; Connect</h2>
+
+  <a href="mailto:hello@kaitlynjoy.com" class="btn-contact">
+    <img src="/portfolio-test/img/contact-email.png" alt="Email" title="">
+    <p>Email</p>
+  </a>
+
+  <a href="https://www.linkedin.com/in/kaitlynmann" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-linkedin.png" alt="LinkedIn" title="">
+    <p>LinkedIn</p>
+  </a>
+
+  <a href="http://vimeo.com/kaitlynmann/" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-vimeo.png" alt="CodePen" title="">
+    <p>Vimeo</p>
+  </a>
+
+  <a href="https://www.behance.net/kaitlynjoy" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-behance.png" alt="Behance" title="">
+    <p>Behance</p>
+  </a>
+
+  <a href="http://codepen.io/kaitlynjoy/" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-codepen.png" alt="CodePen" title="">
+    <p>CodePen</p>
+  </a>
+
+  <a href="https://github.com/kaitlynjoy" target="_blank" class="btn-contact">
+    <img src="/portfolio-test/img/contact-github.png" alt="Behance" title="">
+    <p>Github</p>
+  </a>
+</div>
+
+
+
+  <div class="clear"></div>
+
+  <hr>
+
+  <div class="clear"></div>
+
+    <p>&copy; Kaitlyn Joy Mann</p>
+
+    <a href="https://github.com/kaitlynjoy/portfolio-site" target="_blank" class="btn-box">Source Code</a>
+    <a href="/portfolio-test/blog/" class="btn-box">Blog</a>
+
+<div class="clear"></div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/portfolio-test/js/base.js"></script>
+
+
+</body>
+
+</html>
