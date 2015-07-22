@@ -1,7 +1,7 @@
 ---
 title: "Using PHP Variables in CSS"
 date: 2015-07-21
-excerpt: <p></p>
+excerpt: <p>Wouldn't it be nice to be able to write CSS, but use variables for commonly used elements like colors and fonts? The good news is, there is! And, it's pretty simple too.</p>
 feat-img: css-and-php.jpg
 ---
 
