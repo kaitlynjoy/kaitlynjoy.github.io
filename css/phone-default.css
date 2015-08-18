@@ -175,6 +175,11 @@ pre {
 	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
 }
 
+blockquote {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
 
 /* ---------------------------- Buttons ----------------------------------- */
 
